@@ -1,11 +1,5 @@
 {
-  {
-    "homepage": "https://aaravsalot.github.io/DataAnalyticsPortfolio",
-    "scripts": {
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d build",
-        ...
-    }
+
 }
   "name": "react-portfolio-template",
   "version": "0.1.0",
