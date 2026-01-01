@@ -1,0 +1,109 @@
+@font-face {
+  font-family: 'Courier Prime';
+  src: url('./assets/fonts/Courier Prime/Courier Prime.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Courier Prime';
+  src: url('./assets/fonts/Courier Prime/Courier Prime Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Courier Prime';
+  src: url('./assets/fonts/Courier Prime/Courier Prime Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Courier Prime';
+  src: url('./assets/fonts/Courier Prime/Courier Prime Bold Italic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.1rem !important;
+  background-color: rgb(39, 40, 34) !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace !important;
+  font-size: 1rem !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFD300;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+p, a, h1, h2, h3, h4, h5, label, button {
+  color: white;
+  font-family: 'Courier Prime', monospace;
+}
+
+.navigation-bar {
+  justify-content: space-between;
+  background-color: rgb(39, 40, 34);
+
+  button {
+    font-size: 1.1rem;
+    font-family: 'Courier Prime', monospace;
+  }
+}
+
+.navigation-bar-responsive {
+  span, p {
+    color: rgb(39, 40, 34);
+    font-family: 'Courier Prime', monospace;
+  }
+}
+
+.container {
+  margin-top: 64px;
+  padding-top: 5%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-image {
+  width: 100%;
+  height: 450px;
+
+  img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+  }
+}
+
+.svg-inline--fa {
+  color: rgb(39, 40, 34);
+}
+
+.items-container {
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: left;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
